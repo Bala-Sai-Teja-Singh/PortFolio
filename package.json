@@ -1,5 +1,5 @@
 {
-  "homepage": "https://bala-sai-teja-singh.github.io/Teja",
+  "homepage": "https://Bala-Sai-Teja-Singh.github.io/Teja",
   "name": "teja-singh",
   "version": "0.1.0",
   "private": true,
@@ -20,8 +20,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy" : "npm run build",
-"deploy" : "gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
