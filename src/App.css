@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+#main-container {
+  display: grid;
+  grid-template-columns: 20% 80%;
+  height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#left-container {
+  background-color: #bddcea;
+  display: grid;
+  grid-template-rows: 85% 15%;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+a {
+  text-decoration: none;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+.anchor {
+  width: fit-content;
+}
+#components {
+  display: grid;
+  font-weight: 600;
+  height: 50%;
+  grid-template-columns: 80% 20%;
+  margin: 2vh;
+  padding: 1vh;
   align-items: center;
+}
+#components a {
+  padding: 10%;
+}
+
+.nav_link,
+.nav_link:hover,
+.nav_link:visited,
+.port_link:visited {
+  color: black;
+}
+.nav_link.active {
+  color: #1070ff;
+}
+.socialMedia {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  margin-left: 0.8vw;
+}
+.resize {
+  height: 3vh;
+}
+.ignore-web {
+  display: none;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+/* media queries */
+@media (max-width: 1383px) {
+  #main-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 10% 90%;
   }
-  to {
-    transform: rotate(360deg);
+  .port_link,
+  .socialMedia-mq,
+  .ignore {
+    display: none;
+  }
+  #components {
+    margin: 0;
+    text-align: left;
+    grid-template-columns: 11% 23% 15% 26% 20%;
+  }
+  a.nav_link {
+    font-size: 20px;
+
+    text-align: center;
+  }
+  #name h3 {
+    margin-top: 5px;
+    margin-bottom: 0;
+  }
+  .ignore-web {
+    display: block;
+  }
+  .nav_link:hover {
+    font-size: 15px;
+    color: red;
+  }
+}
+
+@media (max-width: 760px) {
+  a.nav_link {
+    font-size: 15px;
+  }
+  .nav_link:hover {
+    font-size: 12px;
+    color: red;
+  }
+}
+@media (max-width: 400px) {
+  a.nav_link {
+    font-size: 13px;
+  }
+  .nav_link:hover {
+    font-size: 10px;
+    color: red;
+  }
+}
+@media (max-width: 280px) {
+  a.nav_link {
+    font-size: 10px;
   }
 }
