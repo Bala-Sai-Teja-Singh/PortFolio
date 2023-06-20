@@ -29,7 +29,7 @@ export default function Certificates() {
         >
           <div id="c1">
             <div style={{height:"100%", width:"100%"}}>
-            <img src={require("../Images/web4.jpg")} alt="WebImage" onLoad={handleImageLoad} />
+            <img src={require("../Images/web4.jpg")} alt="WebImage" />
             </div>
           </div>
         </NavLink>
@@ -71,6 +71,7 @@ export default function Certificates() {
             <img loading="lazy" 
               src={require("../Images/android.png")}
               alt="facebookicon"
+              onLoad={handleImageLoad}
             />
           </div>
         </NavLink>
