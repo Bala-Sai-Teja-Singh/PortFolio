@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Teja/static/css/main.b3c6b0ed.css",
-    "main.js": "/Teja/static/js/main.71efc4d6.js",
+    "main.js": "/Teja/static/js/main.a9694a1d.js",
     "static/js/787.356c4aeb.chunk.js": "/Teja/static/js/787.356c4aeb.chunk.js",
     "static/media/shap.png": "/Teja/static/media/shap.7fe4805314308b0d22e6.png",
     "static/media/android.png": "/Teja/static/media/android.c9e0160a25988f15fbde.png",
@@ -22,11 +22,11 @@
     "static/media/Prepbyteslogo.avif": "/Teja/static/media/Prepbyteslogo.b10fd938bed87c7f74ad.avif",
     "index.html": "/Teja/index.html",
     "main.b3c6b0ed.css.map": "/Teja/static/css/main.b3c6b0ed.css.map",
-    "main.71efc4d6.js.map": "/Teja/static/js/main.71efc4d6.js.map",
+    "main.a9694a1d.js.map": "/Teja/static/js/main.a9694a1d.js.map",
     "787.356c4aeb.chunk.js.map": "/Teja/static/js/787.356c4aeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3c6b0ed.css",
-    "static/js/main.71efc4d6.js"
+    "static/js/main.a9694a1d.js"
   ]
 }
