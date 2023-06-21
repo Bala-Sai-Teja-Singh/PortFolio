@@ -63,7 +63,7 @@ ul {
 @media screen and (max-width: 804px) {
   .domain-p {
     grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 320px);
+    grid-template-rows: repeat(4, 1fr);
     height: fit-content;
     align-items: center;
     justify-content: center;
@@ -100,7 +100,7 @@ ul {
 }
 @media (max-width: 400px) {
   .domain-p{
-    grid-template-rows: repeat(4,220px);
+    grid-template-rows: repeat(4,1fr);
   }
   #p1,
   #p2,
