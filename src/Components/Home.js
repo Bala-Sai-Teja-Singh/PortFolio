@@ -130,8 +130,8 @@ export default class Home extends Component {
         
         </div>
         <div class="right-section">
-          <img loading="eager" src={Shape} class="splash" alt="Shape" />
-          <img loading="eager" src={dp} alt="Dp" />
+          <img src={Shape} class="splash" alt="Shape" />
+          <img src={dp} alt="Dp" />
         </div>
         
       </div>
