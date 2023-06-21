@@ -25,7 +25,7 @@ export default class Projects extends Component {
             </NavLink>
             <NavLink className="Nav-link-right size" to="/Projects/Java">
               <div id="p2">
-                <img loading="eager" src={require("../Images/java.webp")} alt="facebookicon" />
+                <img loading="eager" src={require("../Images/java.jpg")} alt="facebookicon" />
               </div>
             </NavLink>
             <NavLink className="Nav-link-left size" to="/Projects/Python">
