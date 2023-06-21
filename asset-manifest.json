@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/PortFolio/static/css/main.0123ca06.css",
-    "main.js": "/PortFolio/static/js/main.3d3d211b.js",
+    "main.js": "/PortFolio/static/js/main.3ea00412.js",
     "static/js/787.356c4aeb.chunk.js": "/PortFolio/static/js/787.356c4aeb.chunk.js",
     "static/media/shap.png": "/PortFolio/static/media/shap.2391f1a672cd95297021.png",
     "static/media/android.png": "/PortFolio/static/media/android.c9e0160a25988f15fbde.png",
@@ -21,11 +21,11 @@
     "static/media/Prepbyteslogo.avif": "/PortFolio/static/media/Prepbyteslogo.b10fd938bed87c7f74ad.avif",
     "index.html": "/PortFolio/index.html",
     "main.0123ca06.css.map": "/PortFolio/static/css/main.0123ca06.css.map",
-    "main.3d3d211b.js.map": "/PortFolio/static/js/main.3d3d211b.js.map",
+    "main.3ea00412.js.map": "/PortFolio/static/js/main.3ea00412.js.map",
     "787.356c4aeb.chunk.js.map": "/PortFolio/static/js/787.356c4aeb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0123ca06.css",
-    "static/js/main.3d3d211b.js"
+    "static/js/main.3ea00412.js"
   ]
 }
