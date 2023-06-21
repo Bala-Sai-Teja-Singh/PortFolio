@@ -4,16 +4,10 @@ import { NavLink } from "react-router-dom";
 import Scrollbars from "react-custom-scrollbars-2";
 import "./CSS/Webdev.css";
 import { BsArrowRight } from "react-icons/bs";
-import background from "../Images/bg-img.avif";
 export default class AndroidAppDev extends Component {
   render() {
     return (
       <Scrollbars
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
       >
         <div className="certificate-page">
           <NavLink className="back" to="/Certificates">

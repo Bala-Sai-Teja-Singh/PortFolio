@@ -5,16 +5,11 @@ import Scrollbars from "react-custom-scrollbars-2";
 import "./CSS/Webdev.css";
 import "./CSS/Project.css";
 import "./CSS/Projects.css";
-import background from "../Images/bg-img.avif";
+
 export default class Webdevprojects extends Component {
   render() {
     return (
       <Scrollbars
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-        }}
       >
         <div className="certificate-page">
           <NavLink className="back" to="/projects">

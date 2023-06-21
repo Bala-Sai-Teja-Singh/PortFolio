@@ -1,13 +1,7 @@
 import React, { Component } from "react";
 import "./CSS/Experience.css";
-import backgroundImage from "../Images/blue.jpeg";
 import Scrollbars from "react-custom-scrollbars-2";
 export default class Academics extends Component {
-  componentDidMount() {
-    document.body.style.backgroundImage = `url(${backgroundImage})`;
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundSize = "cover";
-  }
   render() {
     return (
       <Scrollbars>

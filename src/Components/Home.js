@@ -3,15 +3,10 @@ import "../Components/CSS/Home.css";
 import { TypeAnimation } from "react-type-animation";
 import Shape from "../Images/shap.png";
 import dp from "../Images/DP.png";
-import backgroundImage from "../Images/blue.jpeg";
 import { HiDownload } from "react-icons/hi";
+
 export default class Home extends Component {
-  componentDidMount() {
-    document.body.style.backgroundImage = `url(${backgroundImage})`;
-    document.body.style.backgroundRepeat = "no-repeat";
-    document.body.style.backgroundSize = "cover";
-    document.body.style.overflow = "hidden";
-  }
+   
   render() {
     return (
       <div id="main">
@@ -132,6 +127,7 @@ export default class Home extends Component {
               <HiDownload />
             </a>
         </div>
+        
         </div>
         <div class="right-section">
           <img loading="eager" src={Shape} class="splash" alt="Shape" />

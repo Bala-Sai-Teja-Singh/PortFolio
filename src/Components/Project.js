@@ -1,19 +1,11 @@
 import React, { Component } from "react";
 import "./CSS/Project.css";
 import { NavLink } from "react-router-dom";
-import background from "../Images/blue.jpeg";
 import Scrollbars from "react-custom-scrollbars-2";
 export default class Projects extends Component {
   render() {
     return (
       <Scrollbars
-        style={{
-          backgroundImage: `url(${background})`,
-          backgroundRepeat: "no-repeat",
-          backgroundSize: "cover",
-          height: "100vh",
-          width: "100%",
-        }}
       >
         <div id="main-p">
           <div className="title">

@@ -89,14 +89,6 @@ function App() {
     <>
       <div id="main-container">
         <div id="left-container">
-          {/* <NavLink className='port_link' to='/'><h1 id='portfolio'>PORTFOLIO</h1></NavLink> */}
-          {/* <div id="profilephoto" className='ignore'>
-        <img src={require('./Images/Profile_pic.jpeg')} height={'50px'} alt='GitIcon' className='ignore'></img>
-        </div> */}
-          {/* <div id="name" className='ignore'>
-        <h3 >Bala Sai Teja Singh Bondili</h3>
-        </div> */}
-
           <div id="components">
             <NavLink className="nav_link" to="/">
               Home

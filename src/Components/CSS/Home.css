@@ -68,7 +68,7 @@
 .right-section img {
   width: 340px;
   position: absolute;
-  bottom: 0px;
+  bottom: -10px;
   right: 12%;
 }
 
@@ -290,4 +290,49 @@
   .right-section img{
     top: 370px;
   }
+}
+
+
+
+/* Dark Mode */
+
+
+body.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode #main {
+  border-color: #444;
+}
+
+.dark-mode .content {
+  background-color: #333;
+}
+
+.dark-mode h3,
+.dark-mode h1,
+.dark-mode .my-info,
+.dark-mode .socialMedia a,
+.dark-mode .download-resume a {
+  color: #fff;
+}
+
+.dark-mode .hi.txt,
+.dark-mode .hi,
+.dark-mode .resize {
+  color: #f5a623;
+}
+
+.dark-mode .socialMedia a:hover,
+.dark-mode .download-resume a:hover {
+  color: #f5a623;
+}
+
+.dark-mode .right-section .splash {
+  filter: invert(100%);
+}
+
+.dark-mode .right-section img {
+  border-color: #f5a623;
 }
