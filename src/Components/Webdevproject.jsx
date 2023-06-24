@@ -37,7 +37,7 @@ export default class Webdevprojects extends Component {
                 </a>
               </div>
               <div className="right rht">
-                <h3 className="no-margin">Programming Languages</h3>
+                <h3 className="no-margin">Programming<br/>Languages</h3>
                 <ul>
                   <li>HTML</li>
                 </ul>
@@ -64,7 +64,7 @@ export default class Webdevprojects extends Component {
                 </a>
               </div>
               <div className="right rht">
-                <h3 className="no-margin">Programming Languages</h3>
+                <h3 className="no-margin">Programming<br/>Languages</h3>
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -92,7 +92,7 @@ export default class Webdevprojects extends Component {
                 </a>
               </div>
               <div className="right rht">
-                <h3 className="no-margin">Programming Languages</h3>
+                <h3 className="no-margin">Programming<br/>Languages</h3>
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -120,7 +120,7 @@ export default class Webdevprojects extends Component {
                 </a>
               </div>
               <div className="right rht">
-                <h3 className="no-margin">Programming Languages</h3>
+                <h3 className="no-margin">Programming<br/>Languages</h3>
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
@@ -148,13 +148,50 @@ export default class Webdevprojects extends Component {
                 </a>
               </div>
               <div className="right rht">
-                <h3 className="no-margin">Programming Languages</h3>
+                <h3 className="no-margin">Programming<br/>Languages</h3>
                 <ul>
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>JavaScript</li>
                 </ul>
               </div>
+            </div>
+            <div className="certificates box proj" style={{ gridTemplateColumns: '45% 25% 30%',paddingRight:'10px' }}>
+              <div className="left">
+                <h2 className="no-margin">Portfolio</h2>
+                <a
+                  className="git-links"
+                  href="https://bala-sai-teja-singh.github.io/Teja-Portfolio/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Hosting URL <BsArrowRight />
+                </a>
+                <a
+                  className="git-links"
+                  href="https://github.com/Bala-Sai-Teja-Singh/Teja-Portfolio"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Git repository link <BsArrowRight />
+                </a>
+              </div>
+              <div className="right rht">
+                <h3 className="no-margin">Programming<br/>Languages</h3>
+                <ul>
+                  <li>HTML</li>
+                  <li>CSS</li>
+                  <li>JavaScript</li>
+                </ul>
+              </div>
+              <div className="right rht" style={{paddingLeft:'10px'}}>
+                <h3 className="no-margin">Frameworks<br/>and Libraries</h3>
+                <ul>
+                  <li>Bootstrap</li>
+                  <li>AOS</li>
+                  <li>Animate.css</li>
+                </ul>
+                </div>
             </div>
           </div>
         </div>

@@ -9,6 +9,7 @@
   position: relative;
   animation: movedown 1s linear forwards;
   opacity: 0;
+  margin-bottom: 20px;
 }
 @keyframes movedown {
   0% {
